@@ -7,7 +7,7 @@ function Layout() {
     <div className="flex flex-col min-h-screen">
       <NavBarMenu />
 
-      <main className="flex flex-1 bg-blue-600">
+      <main className="flex flex-1">
         <Outlet />
       </main>
     </div>

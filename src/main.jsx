@@ -2,9 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { NextUIProvider } from '@nextui-org/react';
+import { gsap } from 'gsap';
 import Layout from './Components/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
+import Skills from './pages/Skills';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -20,9 +24,23 @@ const router = createBrowserRouter([
         path: '/about',
         element: <About />,
       },
+      {
+        path: '/skills',
+        element: <Skills />,
+      },
+      {
+        path: '/projects',
+        element: <Projects />,
+      },
+      {
+        path: '/contact',
+        element: <Contact />,
+      },
     ],
   },
 ]);
+
+gsap.registerPlugin();
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

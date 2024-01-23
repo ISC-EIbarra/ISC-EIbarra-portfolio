@@ -42,6 +42,7 @@ function NavBarMenu() {
       onMenuOpenChange={setIsMenuOpen}
       maxWidth="full"
       position="static"
+      isBordered
     >
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle
@@ -50,31 +51,17 @@ function NavBarMenu() {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex" justify="end">
-        <NavbarItem
-          className={`${location.pathname === '/' ? 'text-blue-700 font-medium' : ''}`}
-        >
-          <Link to="/">Home</Link>
-        </NavbarItem>
-        <NavbarItem
-          className={`${location.pathname === '/about' ? 'text-blue-700 font-medium' : ''}`}
-        >
-          <Link to="/about">Acerca</Link>
-        </NavbarItem>
-        <NavbarItem
-          className={`${location.pathname === '/skills' ? 'text-blue-700 font-medium' : ''}`}
-        >
-          <Link to="/">Habilidades</Link>
-        </NavbarItem>
-        <NavbarItem
-          className={`${location.pathname === '/projects' ? 'text-blue-700 font-medium' : ''}`}
-        >
-          <Link to="/">Proyectos</Link>
-        </NavbarItem>
-        <NavbarItem
-          className={`${location.pathname === '/contact' ? 'text-blue-700 font-medium' : ''}`}
-        >
-          <Link to="/">Contácteme</Link>
-        </NavbarItem>
+        {menuItems.map((item) => (
+          <NavbarItem key={item.name}>
+            <Link
+              to={item.route}
+              className={`w-full ${location.pathname === item.route ? 'text-blue-700 font-medium' : ''}`}
+              size="lg"
+            >
+              {item.name}
+            </Link>
+          </NavbarItem>
+        ))}
       </NavbarContent>
 
       <NavbarMenu>
