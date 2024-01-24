@@ -23,10 +23,6 @@ function NavBarMenu() {
       route: '/about',
     },
     {
-      name: 'Habilidades',
-      route: '/skills',
-    },
-    {
       name: 'Proyectos',
       route: '/projects',
     },

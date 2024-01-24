@@ -6,7 +6,6 @@ import { gsap } from 'gsap';
 import Layout from './Components/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
-import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import './index.css';
@@ -23,10 +22,6 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <About />,
-      },
-      {
-        path: '/skills',
-        element: <Skills />,
       },
       {
         path: '/projects',
