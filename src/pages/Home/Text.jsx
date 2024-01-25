@@ -1,5 +1,3 @@
-// TextAnimation.js
-
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
@@ -22,7 +20,7 @@ function TextAnimation() {
 
   return (
     <div className="flex gap-2">
-      <p className="text-4xl font-medium">Hello, I&#39;m</p>
+      <p className="text-4xl font-medium">Hola, soy</p>
       <p className="text-4xl font-medium" ref={textRef}>
         Edson
       </p>
