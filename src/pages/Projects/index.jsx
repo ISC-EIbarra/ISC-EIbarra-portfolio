@@ -46,7 +46,7 @@ function Projects() {
         </div>
       </div>
 
-      <div className="flex justify-center gap-4 mb-4">
+      <div className="flex justify-center gap-4 mb-4 mt-4">
         <button
           type="button"
           onClick={prevSlide}
