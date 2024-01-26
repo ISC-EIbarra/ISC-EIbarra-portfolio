@@ -15,7 +15,7 @@ function Home() {
           alt="creator"
         />
         <TextAnimation />
-        <p className="mt-2 text-2xl font-medium">Frontend Developer Jr.</p>
+        <p className="mt-2 text-1xl font-medium">Frontend Developer Jr.</p>
         <button
           className="rounded-3xl px-4 py-2 bg-blue-600 hover:bg-blue-800 transition-colors mt-4"
           type="button"

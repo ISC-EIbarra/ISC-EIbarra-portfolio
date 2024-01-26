@@ -20,9 +20,9 @@ function TextAnimation() {
 
   return (
     <div className="flex gap-2">
-      <p className="md:text-5xl text-4xl font-medium ">Hola, soy</p>
+      <p className="md:text-5xl text-3xl font-medium ">Hola, soy</p>
       <p
-        className="md:text-5xl text-4xl font-medium text-blue-900 text-wrap"
+        className="md:text-5xl text-3xl font-medium text-blue-900 text-wrap"
         ref={textRef}
       >
         Edson
