@@ -38,7 +38,6 @@ function NavBarMenu() {
       onMenuOpenChange={setIsMenuOpen}
       maxWidth="full"
       position="static"
-      isBordered
     >
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle

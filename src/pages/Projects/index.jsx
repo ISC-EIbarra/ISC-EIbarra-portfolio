@@ -32,7 +32,7 @@ function Projects() {
           {projectsToShow.map((project) => (
             <div
               key={project.id}
-              className="flex flex-col items-center justify-center px-2 py-4 bg-gray-100 hover:bg-gray-200 transition-colors rounded"
+              className="flex flex-col items-center justify-center px-2 py-4 bg-gray-200 hover:bg-gray-300 transition-colors rounded"
             >
               <img
                 src={project.image}

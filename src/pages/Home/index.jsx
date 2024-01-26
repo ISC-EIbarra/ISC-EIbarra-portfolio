@@ -7,22 +7,22 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-1 gap-4 bg-yellow-300">
-      <div className="flex flex-1 flex-col justify-center items-center bg-blue-400">
+    <div className="flex flex-1 gap-8">
+      <div className="flex flex-1 flex-col justify-center items-center md:items-end">
         <img
-          className="flex sm:hidden w-[12rem] h-[12rem] rounded-full mb-6"
+          className="flex md:hidden w-[12rem] h-[12rem] rounded-full mb-6"
           src={profile}
           alt="creator"
         />
         <TextAnimation />
-        <p className="mt-2 text-xl">Frontend Developer Jr.</p>
+        <p className="mt-2 text-2xl font-medium">Frontend Developer Jr.</p>
         <button
-          className="rounded-3xl px-4 py-2 bg-blue-700 mt-4"
+          className="rounded-3xl px-4 py-2 bg-blue-600 hover:bg-blue-800 transition-colors mt-4"
           type="button"
           onClick={() => navigate('/projects')}
         >
           <div className="flex gap-2 text-white">
-            <p>Mis Proyectos</p>
+            <p className="text-lg">Mis Proyectos</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -40,8 +40,8 @@ function Home() {
           </div>
         </button>
       </div>
-      <div className="hidden sm:flex flex-1 bg-red-200">
-        <div className="flex flex-1 justify-center items-center">
+      <div className="hidden md:flex flex-1">
+        <div className="flex flex-1 items-center px-10">
           <img
             className="w-[18rem] h-[18rem] rounded-full"
             src={profile}
