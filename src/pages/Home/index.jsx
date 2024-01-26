@@ -8,9 +8,9 @@ function Home() {
 
   return (
     <div className="flex flex-1 gap-8">
-      <div className="flex flex-1 flex-col justify-center items-center md:items-end">
+      <div className="flex flex-1 flex-col justify-center items-center lg:items-end">
         <img
-          className="flex md:hidden w-[12rem] h-[12rem] rounded-full mb-6"
+          className="flex lg:hidden w-[12rem] h-[12rem] rounded-full mb-6"
           src={profile}
           alt="creator"
         />
@@ -40,7 +40,7 @@ function Home() {
           </div>
         </button>
       </div>
-      <div className="hidden md:flex flex-1">
+      <div className="hidden lg:flex flex-1">
         <div className="flex flex-1 items-center px-10">
           <img
             className="w-[18rem] h-[18rem] rounded-full"
