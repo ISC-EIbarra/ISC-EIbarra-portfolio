@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import { Tooltip } from '@nextui-org/react';
 import projectsData from './data.json';
 
 function Projects() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const projectsToShow = projectsData.slice(currentSlide, currentSlide + 3);
+  const projects = projectsData.slice(currentSlide, currentSlide + 3);
 
   const nextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide + 3) % projectsData.length);
@@ -29,10 +30,12 @@ function Projects() {
       </div>
       <div className="grid h-full">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 items-center mx-4">
-          {projectsToShow.map((project) => (
+          {projects.map((project) => (
             <div
               key={project.id}
-              className="flex flex-col items-center justify-center px-2 py-4 bg-gray-200 hover:bg-gray-300 transition-colors rounded"
+              role="presentation"
+              className="flex flex-col items-center justify-center px-2 py-4 bg-gray-200 hover:bg-gray-300 transition-colors rounded hover:cursor-pointer"
+              onClick={() => window.open(project.route, '_blank')}
             >
               <img
                 src={project.image}
@@ -40,13 +43,31 @@ function Projects() {
                 className="w-[30rem] object-cover rounded"
               />
               <h2 className="mt-2 font-medium">{project.title}</h2>
-              <p className="">{project.description}</p>
+              <p className="mt-2 text-wrap">{project.description}</p>
+              <h2 className="mt-2 font-medium">Tecnologías</h2>
+              <div className="mt-2 flex gap-2">
+                {project.tech?.map((technology) => (
+                  <Tooltip
+                    color="primary"
+                    content={technology?.name}
+                    delay={500}
+                  >
+                    <img
+                      role="presentation"
+                      className="h-8"
+                      src={technology?.url}
+                      alt="technologies"
+                      onClick={() => window.open(technology.link, '_blank')}
+                    />
+                  </Tooltip>
+                ))}
+              </div>
             </div>
           ))}
         </div>
       </div>
 
-      <div className="flex justify-center gap-4 mb-4 mt-4">
+      <div className="flex justify-center gap-4 mt-4">
         <button
           type="button"
           onClick={prevSlide}

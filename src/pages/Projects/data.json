@@ -3,36 +3,204 @@
     "id": 1,
     "title": "Buscador de bebidas",
     "image": "../../../project1.png",
-    "description": "Descripción del proyecto 1"
+    "tech": [
+      {
+        "id": 1,
+        "name": "Vite",
+        "url": "../../../vite.svg",
+        "link": "https://vitejs.dev/"
+      },
+      {
+        "id": 2,
+        "name": "React",
+        "url": "../../../react.svg",
+        "link": "https://es.react.dev/"
+      },
+      {
+        "id": 3,
+        "name": "Redux Toolkit",
+        "url": "../../../redux.svg",
+        "link": "https://redux-toolkit.js.org/"
+      },
+      {
+        "id": 4,
+        "name": "Bootstrap",
+        "url": "../../../bootstrap.svg",
+        "link": "https://getbootstrap.com/"
+      }
+    ],
+    "description": "Buscador de bebidas incorporando la API 'TheCocktailDB', permite buscar por categorías, visualizar las recetas (instrucciones, ingredientes y cantidades).",
+    "route": "https://buscador-bebidas-sooty.vercel.app/"
   },
   {
     "id": 2,
     "title": "Control de gastos",
     "image": "../../../project2.png",
-    "description": "Descripción del proyecto 2"
+    "tech": [
+      {
+        "id": 1,
+        "name": "Vite",
+        "url": "../../../vite.svg",
+        "link": "https://vitejs.dev/"
+      },
+      {
+        "id": 2,
+        "name": "React",
+        "url": "../../../react.svg",
+        "link": "https://es.react.dev/"
+      },
+      {
+        "id": 3,
+        "name": "Css 3",
+        "url": "../../../css3.svg",
+        "link": "https://developer.mozilla.org/es/docs/Web/CSS"
+      }
+    ],
+    "description": "Permite generar un presupuesto y añadir gastos que se restaran del presupuesto inicial, incorpora gráfica de pastel, implementa LocalStorage para la persistencia de los datos.",
+    "route": "https://control-gastos-sigma.vercel.app/"
   },
   {
     "id": 3,
     "title": "Consultor de criptomonedas",
     "image": "../../../project3.png",
-    "description": "Descripción del proyecto 3"
+    "tech": [
+      {
+        "id": 1,
+        "name": "Vite",
+        "url": "../../../vite.svg",
+        "link": "https://vitejs.dev/"
+      },
+      {
+        "id": 2,
+        "name": "React",
+        "url": "../../../react.svg",
+        "link": "https://es.react.dev/"
+      },
+      {
+        "id": 3,
+        "name": "Styled components",
+        "url": "../../../styled-components.svg",
+        "link": "https://styled-components.com/"
+      }
+    ],
+    "description": "Consume la API de CryptoCompare para cotizar los datos (precio actual, precio más alto, precio más bajo, etc.) de alguna criptomoneda seleccionada por el usuario.",
+    "route": "https://criptomonedas-searcher.vercel.app/"
   },
   {
     "id": 4,
     "title": "Gestor de citas",
     "image": "../../../project4.png",
-    "description": "Descripción del proyecto 4"
+    "tech": [
+      {
+        "id": 1,
+        "name": "Vite",
+        "url": "../../../vite.svg",
+        "link": "https://vitejs.dev/"
+      },
+      {
+        "id": 2,
+        "name": "React",
+        "url": "../../../react.svg",
+        "link": "https://es.react.dev/"
+      },
+      {
+        "id": 3,
+        "name": "Tailwindcss",
+        "url": "../../../tailwindcss.svg",
+        "link": "https://tailwindcss.com/"
+      }
+    ],
+    "description": "Seguimiento de pacientes de una veterinaria, implementa LocalStorage para la persistencia de los datos, incorpora las funciones editar y/o eliminar los datos del paciente (dar de alta).",
+    "route": "https://gestion-citas.vercel.app/"
   },
   {
     "id": 5,
     "title": "Journal App",
     "image": "../../../project5.png",
-    "description": "Descripción del proyecto 5"
+    "tech": [
+      {
+        "id": 1,
+        "name": "Vite",
+        "url": "../../../vite.svg",
+        "link": "https://vitejs.dev/"
+      },
+      {
+        "id": 2,
+        "name": "React",
+        "url": "../../../react.svg",
+        "link": "https://es.react.dev/"
+      },
+      {
+        "id": 3,
+        "name": "Redux Toolkit",
+        "url": "../../../redux.svg",
+        "link": "https://redux-toolkit.js.org/"
+      },
+      {
+        "id": 4,
+        "name": "Firebase",
+        "url": "../../../firebase.svg",
+        "link": "https://firebase.google.com/?hl=es"
+      },
+      {
+        "id": 5,
+        "name": "MUI - Material UI",
+        "url": "../../../materialui.svg",
+        "link": "https://mui.com/"
+      }
+    ],
+    "description": "Creación y almacenamiento de notas, permite la adición de imágenes, implementa autenticación por medio de Firebase y almacenamiento de imágenes con Cloudinary.",
+    "route": "https://journal-app-pi-sepia.vercel.app/auth/login"
   },
   {
     "id": 6,
     "title": "UpTask",
     "image": "../../../project6.png",
-    "description": "Descripción del proyecto 6"
+    "tech": [
+      {
+        "id": 1,
+        "name": "Vite",
+        "url": "../../../vite.svg",
+        "link": "https://vitejs.dev/"
+      },
+      {
+        "id": 2,
+        "name": "MongoDB",
+        "url": "../../../mongodb.svg",
+        "link": "https://www.mongodb.com/es"
+      },
+      {
+        "id": 3,
+        "name": "Express JS",
+        "url": "../../../expressjs.svg",
+        "link": "https://expressjs.com/"
+      },
+      {
+        "id": 2,
+        "name": "React",
+        "url": "../../../react.svg",
+        "link": "https://es.react.dev/"
+      },
+      {
+        "id": 3,
+        "name": "NodeJs",
+        "url": "../../../nodejs.svg",
+        "link": "https://nodejs.org/en"
+      },
+      {
+        "id": 5,
+        "name": "Tailwindcss",
+        "url": "../../../tailwindcss.svg",
+        "link": "https://tailwindcss.com/"
+      },
+      {
+        "id": 6,
+        "name": "Socket.IO",
+        "url": "../../../socketio.svg",
+        "link": "https://socket.io/"
+      }
+    ],
+    "description": "Proyecto MERN Stack enfocado en la gestión de proyectos, tareas y colaboradores, implementa socket io para operaciones/notificaciones en tiempo real.",
+    "route": "https://up-task-mern-five.vercel.app/"
   }
 ]
