@@ -19,7 +19,7 @@ function Projects() {
   };
 
   return (
-    <div className="flex flex-1 flex-col">
+    <div className="flex w-full flex-col">
       <div className="mx-4 mt-4">
         <h1 className="font-semibold text-4xl">Proyectos</h1>
         <h1 className="font-normal text-lg">
@@ -67,7 +67,7 @@ function Projects() {
         </div>
       </div>
 
-      <div className="flex justify-center gap-4 my-2">
+      <div className="flex justify-center gap-4 my-1">
         <button
           type="button"
           onClick={prevSlide}

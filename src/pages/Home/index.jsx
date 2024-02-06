@@ -7,7 +7,7 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-1 gap-8">
+    <div className="flex w-full gap-8">
       <div className="flex flex-1 flex-col justify-center items-center lg:items-end">
         <img
           className="flex lg:hidden w-[12rem] h-[12rem] rounded-full mb-6"
