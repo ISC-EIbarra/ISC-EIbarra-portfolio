@@ -176,25 +176,25 @@
         "link": "https://expressjs.com/"
       },
       {
-        "id": 2,
+        "id": 4,
         "name": "React",
         "url": "../../../react.svg",
         "link": "https://es.react.dev/"
       },
       {
-        "id": 3,
+        "id": 5,
         "name": "NodeJs",
         "url": "../../../nodejs.svg",
         "link": "https://nodejs.org/en"
       },
       {
-        "id": 5,
+        "id": 6,
         "name": "Tailwindcss",
         "url": "../../../tailwindcss.svg",
         "link": "https://tailwindcss.com/"
       },
       {
-        "id": 6,
+        "id": 7,
         "name": "Socket.IO",
         "url": "../../../socketio.svg",
         "link": "https://socket.io/"

@@ -48,6 +48,7 @@ function Projects() {
               <div className="mt-2 flex gap-2">
                 {project.tech?.map((technology) => (
                   <Tooltip
+                    key={technology.id}
                     color="primary"
                     content={technology?.name}
                     delay={500}
