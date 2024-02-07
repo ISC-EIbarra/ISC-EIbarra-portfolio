@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "icon": "../../../html5.svg"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "icon": "../../../css3.svg"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "icon": "../../../javascript.svg"
+  },
+  {
+    "id": 4,
+    "name": "SASS",
+    "icon": "../../../sass.svg"
+  },
+  {
+    "id": 5,
+    "name": "React Js",
+    "icon": "../../../react.svg"
+  },
+  {
+    "id": 6,
+    "name": "Tailwind Css",
+    "icon": "../../../tailwindcss.svg"
+  },
+  {
+    "id": 7,
+    "name": "Git",
+    "icon": "../../../git.svg"
+  },
+  {
+    "id": 8,
+    "name": "Github",
+    "icon": "../../../github.svg"
+  }
+]
