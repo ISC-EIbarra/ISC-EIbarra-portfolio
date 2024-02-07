@@ -8,6 +8,7 @@
   body,
   html {
     font-family: 'Canaro', system-ui, sans-serif;
-    height: 100%;
+    height: auto;
+    background-color: #f3f4f6;
   }
 }
