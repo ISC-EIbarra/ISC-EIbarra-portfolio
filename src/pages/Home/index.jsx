@@ -21,10 +21,10 @@ function Home() {
         <button
           className="rounded-3xl px-4 py-2 bg-blue-600 hover:bg-blue-800 transition-colors mt-4"
           type="button"
-          onClick={() => navigate('/projects')}
+          onClick={() => navigate('/about')}
         >
           <div className="flex gap-2 text-white">
-            <p className="text-lg">Mis Proyectos</p>
+            <p className="text-lg">Acerca de</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

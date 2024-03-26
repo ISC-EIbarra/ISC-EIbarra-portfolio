@@ -1,8 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Button } from '@nextui-org/react';
 import data from './data.json';
 
 function About() {
+  const navigate = useNavigate();
+
   return (
     <div className="flex w-full flex-col">
       <div className="mx-4 mt-4">
@@ -22,7 +25,7 @@ function About() {
             <h1 className="text-lg font-medium mt-4 text-center ">
               Habilidades
             </h1>
-            <div className="flex flex-wrap gap-2 py-4 justify-center  ">
+            <div className="flex flex-wrap gap-2 py-4 justify-center">
               {data.map((info) => (
                 <Button
                   color="default"
@@ -34,6 +37,31 @@ function About() {
                   <img className="h-8" src={info.icon} alt={info.id} />
                 </Button>
               ))}
+            </div>
+            <div className="flex justify-center">
+              <button
+                className="rounded-3xl px-4 py-2 bg-blue-600 hover:bg-blue-800 transition-colors mt-4"
+                type="button"
+                onClick={() => navigate('/projects')}
+              >
+                <div className="flex gap-2 text-white">
+                  <p className="font-medium">Proyectos</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                </div>
+              </button>
             </div>
           </div>
         </div>

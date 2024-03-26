@@ -4,17 +4,22 @@ import projectsData from './data.json';
 
 function Projects() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const projectsPerPage = 3;
 
-  const projects = projectsData.slice(currentSlide, currentSlide + 3);
+  const projects = projectsData.slice(
+    currentSlide,
+    currentSlide + projectsPerPage,
+  );
 
   const nextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide + 3) % projectsData.length);
+    const nextIndex = currentSlide + projectsPerPage;
+    setCurrentSlide(nextIndex >= projectsData.length ? 0 : nextIndex);
   };
 
   const prevSlide = () => {
+    const prevIndex = currentSlide - projectsPerPage;
     setCurrentSlide(
-      (backSlide) =>
-        (backSlide - 3 + projectsData.length) % projectsData.length,
+      prevIndex < 0 ? projectsData.length - projectsPerPage : prevIndex,
     );
   };
 

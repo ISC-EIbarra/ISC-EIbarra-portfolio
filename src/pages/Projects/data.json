@@ -202,5 +202,32 @@
     ],
     "description": "Proyecto MERN Stack enfocado en la gestión de proyectos, tareas y colaboradores, implementa socket io para operaciones/notificaciones en tiempo real.",
     "route": "https://up-task-mern-five.vercel.app/"
+  },
+  {
+    "id": 7,
+    "title": "Guitar LA",
+    "image": "../../../project7.png",
+    "tech": [
+      {
+        "id": 1,
+        "name": "Vite",
+        "url": "../../../vite.svg",
+        "link": "https://vitejs.dev/"
+      },
+      {
+        "id": 2,
+        "name": "Vue",
+        "url": "../../../vue.svg",
+        "link": "https://vuejs.org/"
+      },
+      {
+        "id": 3,
+        "name": "Tailwindcss",
+        "url": "../../../tailwindcss.svg",
+        "link": "https://tailwindcss.com/"
+      }
+    ],
+    "description": "Sitio para la venta de guitarras, implementa LocalStorage para la persistencia de los datos y un carrito de compras donde se puede (añadir, eliminar y modificar la cantidad de productos).",
+    "route": "https://guitar-la-vue-ashy.vercel.app/"
   }
 ]
