@@ -18,12 +18,18 @@
       },
       {
         "id": 3,
+        "name": "JavaScript",
+        "url": "../../../javascript.svg",
+        "link": "https://developer.mozilla.org/es/docs/Web/JavaScript"
+      },
+      {
+        "id": 4,
         "name": "Redux Toolkit",
         "url": "../../../redux.svg",
         "link": "https://redux-toolkit.js.org/"
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "Bootstrap",
         "url": "../../../bootstrap.svg",
         "link": "https://getbootstrap.com/"
@@ -51,6 +57,12 @@
       },
       {
         "id": 3,
+        "name": "JavaScript",
+        "url": "../../../javascript.svg",
+        "link": "https://developer.mozilla.org/es/docs/Web/JavaScript"
+      },
+      {
+        "id": 4,
         "name": "Css 3",
         "url": "../../../css3.svg",
         "link": "https://developer.mozilla.org/es/docs/Web/CSS"
@@ -78,6 +90,12 @@
       },
       {
         "id": 3,
+        "name": "JavaScript",
+        "url": "../../../javascript.svg",
+        "link": "https://developer.mozilla.org/es/docs/Web/JavaScript"
+      },
+      {
+        "id": 4,
         "name": "Styled components",
         "url": "../../../styled-components.svg",
         "link": "https://styled-components.com/"
@@ -105,6 +123,12 @@
       },
       {
         "id": 3,
+        "name": "JavaScript",
+        "url": "../../../javascript.svg",
+        "link": "https://developer.mozilla.org/es/docs/Web/JavaScript"
+      },
+      {
+        "id": 4,
         "name": "Tailwindcss",
         "url": "../../../tailwindcss.svg",
         "link": "https://tailwindcss.com/"
@@ -132,18 +156,24 @@
       },
       {
         "id": 3,
+        "name": "JavaScript",
+        "url": "../../../javascript.svg",
+        "link": "https://developer.mozilla.org/es/docs/Web/JavaScript"
+      },
+      {
+        "id": 4,
         "name": "Redux Toolkit",
         "url": "../../../redux.svg",
         "link": "https://redux-toolkit.js.org/"
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "Firebase",
         "url": "../../../firebase.svg",
         "link": "https://firebase.google.com/?hl=es"
       },
       {
-        "id": 5,
+        "id": 6,
         "name": "MUI - Material UI",
         "url": "../../../materialui.svg",
         "link": "https://mui.com/"
@@ -183,18 +213,24 @@
       },
       {
         "id": 5,
+        "name": "JavaScript",
+        "url": "../../../javascript.svg",
+        "link": "https://developer.mozilla.org/es/docs/Web/JavaScript"
+      },
+      {
+        "id": 6,
         "name": "NodeJs",
         "url": "../../../nodejs.svg",
         "link": "https://nodejs.org/en"
       },
       {
-        "id": 6,
+        "id": 7,
         "name": "Tailwindcss",
         "url": "../../../tailwindcss.svg",
         "link": "https://tailwindcss.com/"
       },
       {
-        "id": 7,
+        "id": 8,
         "name": "Socket.IO",
         "url": "../../../socketio.svg",
         "link": "https://socket.io/"
@@ -222,9 +258,42 @@
       },
       {
         "id": 3,
-        "name": "Tailwindcss",
-        "url": "../../../tailwindcss.svg",
-        "link": "https://tailwindcss.com/"
+        "name": "Bootstrap",
+        "url": "../../../bootstrap.svg",
+        "link": "https://getbootstrap.com/"
+      }
+    ],
+    "description": "Sitio para la venta de guitarras, implementa LocalStorage para la persistencia de los datos y un carrito de compras donde se puede (añadir, eliminar y modificar la cantidad de productos).",
+    "route": "https://guitar-la-vue-ashy.vercel.app/"
+  },
+  {
+    "id": 8,
+    "title": "Guitar LA",
+    "image": "../../../project8.png",
+    "tech": [
+      {
+        "id": 1,
+        "name": "Vite",
+        "url": "../../../vite.svg",
+        "link": "https://vitejs.dev/"
+      },
+      {
+        "id": 2,
+        "name": "React",
+        "url": "../../../react.svg",
+        "link": "https://es.react.dev/"
+      },
+      {
+        "id": 3,
+        "name": "Typescript",
+        "url": "../../../typescript.svg",
+        "link": "https://es.react.dev/"
+      },
+      {
+        "id": 4,
+        "name": "Bootstrap",
+        "url": "../../../bootstrap.svg",
+        "link": "https://getbootstrap.com/"
       }
     ],
     "description": "Sitio para la venta de guitarras, implementa LocalStorage para la persistencia de los datos y un carrito de compras donde se puede (añadir, eliminar y modificar la cantidad de productos).",

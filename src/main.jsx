@@ -7,6 +7,7 @@ import Layout from './Components/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import ProjectsB from './pages/Projects/ProjectsB';
 import Contact from './pages/Contact';
 import './index.css';
 
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: '/projects',
         element: <Projects />,
+      },
+      {
+        path: '/projects-beta',
+        element: <ProjectsB />,
       },
       {
         path: '/contact',

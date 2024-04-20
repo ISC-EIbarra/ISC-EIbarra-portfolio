@@ -27,6 +27,10 @@ function NavBarMenu() {
       route: '/projects',
     },
     {
+      name: 'Proyectos beta',
+      route: '/projects-beta',
+    },
+    {
       name: 'Contácteme',
       route: '/contact',
     },
